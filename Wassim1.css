@@ -1,0 +1,151 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg);
+    
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+
+header {
+
+    background-color: #000000;
+
+    color: #ffffff;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+nav {
+
+    background-color: #000000;
+
+    color: #fff;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+nav li {
+
+    display: inline;
+
+    margin-right: 20px;
+
+}
+
+.container {
+
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: #fff;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+footer {
+
+    background-color: #000000;
+
+    color: #a12121;
+
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+.skill-bar {
+  width: 100%;
+  max-width: 400px; /* Pas dit aan om de breedte van de skillbar aan te passen */
+  margin: 0 auto;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skill-level {
+  height: 20px;
+  background-color: #007bff; /* Pas de kleur aan naar jouw wens */
+  color: #fff;
+  text-align: right;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+/* Stijl voor de "home" knop */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #050363; /* Achtergrondkleur */
+  color: #fff; /* Tekstkleur */
+  padding: 10px 20px; /* Binnenopvulling */
+  border-radius: 5px; /* Afgeronde hoeken */
+  transition: background-color 0.3s ease; /* Vloeiende overgang van de achtergrondkleur */
+}
+
+nav a:hover {
+  background-color: #10259c; /* Achtergrondkleur bij hover (muis erover) */
+}
+
+
+     /* Stijl voor de Instagram-knop */
+     .instagram-knop {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #fff; /* Instagram-blauw */
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      margin: 10px; /* Ruimte tussen de knoppen */
+  }
+
+  /* Stijl voor hover-effect */
+  .instagram-knop:hover {
+      background-color: #fff; /* Donkerder blauw voor hover */
+  }
